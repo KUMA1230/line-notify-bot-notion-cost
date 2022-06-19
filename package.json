@@ -1,0 +1,10 @@
+{
+  "name": "line-notify-bot-notion-cost",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "volta": {
+    "node": "16.15.1"
+  }
+}
