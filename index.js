@@ -43,7 +43,7 @@ exports.handler = (context) => {
         ガス代：￥${properties['ガス代'].number.toLocaleString()}
         水道代：￥${properties['水道代'].number.toLocaleString()}
         通信費：￥${properties['通信費'].number.toLocaleString()}
-        備考：${properties['備考'].rich_text}
+        備考：${properties['備考'].rich_text[0].plain_text}
         --------------------
         合計金額：￥${properties['合計金額'].formula.number.toLocaleString()}
         (1人あたり ￥${(properties['合計金額'].formula.number / 2).toLocaleString()})`;
